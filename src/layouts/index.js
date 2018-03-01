@@ -1,7 +1,11 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Provider } from 'rebass';
+
 import config from "../../data/SiteConfig";
-import "./index.css";
+import { theme, baseStyles } from '../theme';
+import Footer from '../components/sections/Footer';
+
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -39,15 +43,17 @@ export default class MainLayout extends React.Component {
     return title;
   }
   render() {
+    baseStyles();
     const { children } = this.props;
     return (
-      <div>
+      <Provider theme={theme}>
         <Helmet>
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
         {children()}
-      </div>
+        <Footer  />
+      </Provider>
     );
   }
 }

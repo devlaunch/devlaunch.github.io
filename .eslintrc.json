@@ -2,9 +2,18 @@
   "extends": ["airbnb", "prettier"],
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
-    "react/no-danger": "off"
+    "react/no-danger": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to", "hrefLeft", "hrefRight"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ]
   },
   "settings": {
     "import/core-modules": []
