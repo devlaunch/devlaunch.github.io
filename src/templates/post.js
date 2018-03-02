@@ -2,12 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/PostTags/PostTags";
+import PostTags from "../components/sections/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
-import "./post.css";
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -41,7 +40,7 @@ export default class PostTemplate extends React.Component {
   }
 }
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {

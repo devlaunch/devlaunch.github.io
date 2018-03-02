@@ -1,32 +1,35 @@
 import React from "react";
 import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
+import { Container } from "rebass";
+
+import PostListing from "../components/sections/PostListing";
+import ComingSoon from '../components/sections/ComingSoon';
+import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-export default class CategoryTemplate extends React.Component {
+class Index extends React.Component {
   render() {
-    const category = this.props.pathContext.category;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="category-container">
-        <Helmet
-          title={`Posts in category "${category}" | ${config.siteTitle}`}
-        />
+      <Container>
+        <Helmet title={config.siteTitle} />
+        <SEO postEdges={postEdges} />
+        <ComingSoon appName={config.siteTitle} />
         <PostListing postEdges={postEdges} />
-      </div>
+      </Container>
     );
   }
 }
 
-/* eslint no-undef: "off"*/
+export default Index;
+
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query CategoryPage($category: String) {
+  query IndexQuery {
     allMarkdownRemark(
-      limit: 1000
+      limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { eq: $category } } }
     ) {
-      totalCount
       edges {
         node {
           fields {

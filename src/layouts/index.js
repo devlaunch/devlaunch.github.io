@@ -5,6 +5,7 @@ import { Provider } from 'rebass';
 import config from "../../data/SiteConfig";
 import { theme, baseStyles } from '../theme';
 import Footer from '../components/sections/Footer';
+import Header from '../components/sections/Header';
 
 
 export default class MainLayout extends React.Component {
@@ -51,8 +52,9 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
+        <Header />
         {children()}
-        <Footer  />
+        <Footer config={config} />
       </Provider>
     );
   }

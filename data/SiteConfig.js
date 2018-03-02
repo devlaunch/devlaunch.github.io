@@ -21,18 +21,15 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/devlaunch",
-      iconClassName: "fa fa-github"
+      url: "https://github.com/devlaunch"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/devlaunch",
-      iconClassName: "fa fa-twitter"
+      url: "https://twitter.com/devlaunch"
     },
     {
       label: "Email",
-      url: "mailto:phaneendra.krishnareddy@gmail.com",
-      iconClassName: "fa fa-envelope"
+      url: "mailto:phaneendra.krishnareddy@gmail.com"
     }
   ],
   copyright: "Copyright © 2018. DevLaunch", // Copyright string for the footer of the website and RSS feed.
