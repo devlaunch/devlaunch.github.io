@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
-import { Github, Twitter, Mail } from "react-feather";
+import { Flex } from "rebass";
+import { Github, Twitter, Mail, Rss } from "react-feather";
+
+import NavLink from '../elements/NavLink';
 
 class UserLinks extends Component {
   getLinkElements() {
@@ -9,17 +12,17 @@ class UserLinks extends Component {
     let image = null;
     return userLinks.map(link => {
       if (link.label === "GitHub") {
-        image = <Github />;
-      } else if (link.label === "GitHub") {
-        image = <Twitter />;
+        image = <Github size={16} />;
+      } else if (link.label === "Twitter") {
+        image = <Twitter size={16} />;
       } else {
-        image = <Mail />;
+        image = <Mail size={16} />;
       }
       return (
-        <Link key={link.label} to={link.url}>
+        <NavLink key={link.label} href={link.url} mr={2}>
           {image}
           {labeled ? link.label : ""}
-        </Link>
+        </NavLink>
       );
     });
   }
@@ -28,7 +31,14 @@ class UserLinks extends Component {
     if (!userLinks) {
       return null;
     }
-    return <div className="user-links">{this.getLinkElements()}</div>;
+    return (
+      <Flex>
+        {this.getLinkElements()}
+        <NavLink is={Link} to={this.props.config.siteRss} mr={2}>
+          <Rss size={16} />
+        </NavLink>
+      </Flex>
+    );
   }
 }
 
