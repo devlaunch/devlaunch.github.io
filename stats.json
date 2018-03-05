@@ -20,6 +20,10 @@
       "path---random-project-4-with-super-long-title-phase-one-58a5652133935d446608.js",
       "path---random-project-4-with-super-long-title-phase-one-58a5652133935d446608.js.map"
     ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-96e22f3c8ccee44bbd2c.js",
+      "component---src-pages-index-js-96e22f3c8ccee44bbd2c.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -39,10 +43,6 @@
     "path---tags-testing": [
       "path---tags-testing-c115e7c0b5b43182c6c3.js",
       "path---tags-testing-c115e7c0b5b43182c6c3.js.map"
-    ],
-    "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-941597a557542298b07f.js",
-      "component---src-layouts-index-jsx-941597a557542298b07f.js.map"
     ],
     "path---categories-test-3": [
       "path---categories-test-3-6f7cd5ecd9ee33e66afd.js",
@@ -68,9 +68,13 @@
       "path---tags-tag-ad4b10304a99149ec00b.js",
       "path---tags-tag-ad4b10304a99149ec00b.js.map"
     ],
-    "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-ce49ca27af6d33b4729b.js",
-      "component---src-templates-category-jsx-ce49ca27af6d33b4729b.js.map"
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-46a8d49d11d12107f903.js",
+      "component---src-layouts-index-js-46a8d49d11d12107f903.js.map"
+    ],
+    "component---src-templates-tag-js": [
+      "component---src-templates-tag-js-232c582a41fbff23ab3b.js",
+      "component---src-templates-tag-js-232c582a41fbff23ab3b.js.map"
     ],
     "path---categories-another-one": [
       "path---categories-another-one-e97429b62d25120859dd.js",
@@ -84,10 +88,6 @@
       "path---index-63515e5005a65d7097a5.js",
       "path---index-63515e5005a65d7097a5.js.map"
     ],
-    "component---src-pages-about-jsx": [
-      "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
-      "component---src-pages-about-jsx-16dca089dee574aef9ce.js.map"
-    ],
     "path---big-sample-test": [
       "path---big-sample-test-42882a272829853ffc42.js",
       "path---big-sample-test-42882a272829853ffc42.js.map"
@@ -96,23 +96,27 @@
       "path---tags-tagging-24e5d475d88afdaa232b.js",
       "path---tags-tagging-24e5d475d88afdaa232b.js.map"
     ],
+    "component---src-templates-category-js": [
+      "component---src-templates-category-js-652387ac67ca78fd5d36.js",
+      "component---src-templates-category-js-652387ac67ca78fd5d36.js.map"
+    ],
     "commons": [
-      "commons-d9f7d7fef540fa79e38d.js",
+      "commons-30770b8b19373ef92c81.js",
       "build-js-styles.css",
-      "commons-d9f7d7fef540fa79e38d.js.map",
+      "commons-30770b8b19373ef92c81.js.map",
       "build-js-styles.css.map"
     ],
     "path---angels-of-mist": [
       "path---angels-of-mist-0ddd2760a39f77772bbb.js",
       "path---angels-of-mist-0ddd2760a39f77772bbb.js.map"
     ],
-    "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-181f9d0ce67731bc58c1.js",
-      "component---src-templates-tag-jsx-181f9d0ce67731bc58c1.js.map"
-    ],
     "path---the-fairys-witches": [
       "path---the-fairys-witches-dd50f18b1605d72d5652.js",
       "path---the-fairys-witches-dd50f18b1605d72d5652.js.map"
+    ],
+    "component---src-templates-post-js": [
+      "component---src-templates-post-js-3cf5c2c52139b6dd8d0c.js",
+      "component---src-templates-post-js-3cf5c2c52139b6dd8d0c.js.map"
     ],
     "path---categories-random": [
       "path---categories-random-c91f88f36c76d78a2778.js",
@@ -122,22 +126,14 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-b913c7c83f4ae28d2987.js",
-      "component---src-templates-post-jsx-b913c7c83f4ae28d2987.js.map"
-    ],
-    "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-004b18dc82781fac6e11.js",
-      "component---src-pages-index-jsx-004b18dc82781fac6e11.js.map"
-    ],
     "path---tags-something": [
       "path---tags-something-1a50a895a1f2052ea304.js",
       "path---tags-something-1a50a895a1f2052ea304.js.map"
     ],
     "app": [
-      "app-0095f4a3df41109bf923.js",
+      "app-d10a5b4b79d6af6a33cb.js",
       "build-js-styles.css",
-      "app-0095f4a3df41109bf923.js.map",
+      "app-d10a5b4b79d6af6a33cb.js.map",
       "build-js-styles.css.map"
     ],
     "path---the-fallen-time": [
@@ -147,6 +143,10 @@
     "path---tags-say-hi": [
       "path---tags-say-hi-f5865201f59bf31e3110.js",
       "path---tags-say-hi-f5865201f59bf31e3110.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-16dca089dee574aef9ce.js",
+      "component---src-pages-about-js-16dca089dee574aef9ce.js.map"
     ],
     "path---tags-huge": [
       "path---tags-huge-7f4fd2f45d4a4dd12a4d.js",
