@@ -7,23 +7,23 @@ import NavLink from '../elements/NavLink';
 
 function Header() {
   return (
-    <Absolute z={2} top={0} left={0} right={0}>
+    // <Absolute z={2} top={0} left={0} right={0}>
       <Toolbar px={[0, 3]} bg="white">
         <NavLink is={Link} color="gray.7" to="/">
           DevLaunch
         </NavLink>
         <Box mx="auto" />
-        <NavLink is={Link} color="gray.6" to="/home">
+        <NavLink is={Link} to="/home">
           Solutions
         </NavLink>
-        <NavLink is={Link} color="gray.6" to="/blog">
+        <NavLink is={Link} to="/blog">
           Stories
         </NavLink>
-        <Button is={Link} color="gray.6" to="/contact_us">
+        <Button>
           Contact Us
         </Button>
       </Toolbar>
-    </Absolute>
+    // </Absolute>
   );
 }
 

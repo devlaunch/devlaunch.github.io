@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { Container } from "rebass";
 
+import Container from '../components/elements/Container';
 import PostListing from "../components/sections/PostListing";
 import ComingSoon from '../components/sections/ComingSoon';
 import SEO from "../components/SEO/SEO";
