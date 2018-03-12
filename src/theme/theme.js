@@ -16,6 +16,13 @@ const theme = {
     bold: 700,
   },
   colors: {
+    darken: [
+      'rgba(0, 0, 0, 0.125)',
+      'rgba(0, 0, 0, 0.25)',
+      'rgba(0, 0, 0, 0.5)',
+      'rgba(0, 0, 0, 0.75)',
+    ],
+    dark: 'rgba(0, 0, 0, 0.75)',
     ...openColors,
   },
   radii: [0, 2, 4],

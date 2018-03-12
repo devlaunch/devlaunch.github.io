@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
+import React, { Component } from "react";
+import Helmet from "react-helmet";
 import { Heading, Banner } from 'rebass';
 import { Link } from 'gatsby-link';
 
@@ -7,11 +7,11 @@ import Button from '../components/elements/Button';
 import Container from '../components/elements/Container';
 import config from '../../data/SiteConfig';
 
-class AboutPage extends Component {
+class SolutionPage extends Component {
   render() {
     return (
       <Container>
-        <Helmet title={`About | ${config.siteTitle}`} />
+        <Helmet title={`Solutions | ${config.siteTitle}`} />
         <Banner color="gray.8" bg="white">
           <Heading is="h1" fontSize={[5, 6, 7, 8]}>
            Under Construction
@@ -25,4 +25,4 @@ class AboutPage extends Component {
   }
 }
 
-export default AboutPage;
+export default SolutionPage;
