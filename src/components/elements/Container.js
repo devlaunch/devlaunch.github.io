@@ -5,7 +5,8 @@ const StyledContainer = styled(Container)`
 `;
 
 StyledContainer.defaultProps = {
-  color: 'gray.6'
+  color: 'gray.7',
+  maxWidth: '100vw'
 }
 
 export default StyledContainer;

@@ -5,9 +5,10 @@ const Section = styled(Container)`
 `;
 
 Section.defaultProps = {
-  color: 'gray.6',
+  color: 'gray.7',
   py: 4,
-  is: 'section'
+  is: 'section',
+  maxWidth: '100vw'
 }
 
 
