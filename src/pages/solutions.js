@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import { Heading, Banner } from 'rebass';
+import { Heading, Banner, Button, Container } from 'components/elements';
 import { Link } from 'gatsby-link';
 
-import Button from '../components/elements/Button';
-import Container from '../components/elements/Container';
 import config from '../../data/SiteConfig';
 
 class SolutionPage extends Component {

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Banner, Heading, Lead } from 'rebass';
+import { Banner, Heading, Lead, Button } from 'components/elements';
 import Link from 'gatsby-link';
-
-import Button from '../elements/Button';
 
 class ComingSoon extends Component {
   render() {

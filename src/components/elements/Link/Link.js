@@ -9,7 +9,7 @@ const StyledLink = styled(Link)`
 `;
 
 StyledLink.defaultProps = {
-  color: 'gray.6'
+  color: 'gray.7'
 }
 
 export default StyledLink;

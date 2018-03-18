@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Flex, Box, Heading, Lead } from 'rebass';
-
-import Section from '../../../components/elements/Section';
-import Text from '../../../components/elements/Text';
-import SectionHeading from '../../../components/elements/SectionHeading';
+import { Flex, Box, Heading, Lead, Section, Text, SectionHeading } from 'components/elements';
 
 class Typography extends Component {
   render() {

@@ -1,9 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
 
-import Container from '../components/elements/Container';
-import ComingSoon from '../components/sections/ComingSoon';
-import SEO from "../components/SEO/SEO";
+import { Container } from 'components/elements';
+import ComingSoon from 'components/sections/ComingSoon';
+import SEO from "components/sections/SEO";
 import config from "../../data/SiteConfig";
 
 class Index extends React.Component {

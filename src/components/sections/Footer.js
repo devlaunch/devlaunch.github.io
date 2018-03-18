@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
-import { Flex, Box } from 'rebass';
+import { Flex, Box, Text, ContainerFooter as Container, Link as TextLink } from 'components/elements';
 
-import Text from '../elements/Text';
-import Container from '../elements/ContainerFooter';
-import TextLink from '../elements/Link';
 import UserLinks from "./UserLinks";
 
 class Footer extends Component {

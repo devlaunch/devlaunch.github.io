@@ -1,14 +1,11 @@
-import React from "react";
-import Link from "gatsby-link";
-import { Box } from "rebass";
+import React from 'react';
+import Link from 'gatsby-link';
+import { Box, Button, Toolbar, NavLink } from 'components/elements';
 
-import Button from '../elements/Button';
-import Toolbar from '../elements/Toolbar';
-import NavLink from '../elements/NavLink';
 
 function Header() {
   return (
-    <Toolbar px={[0, 3]} mb={1} bg="white">
+    <Toolbar px={[0, 3]} bg="white">
       <NavLink is={Link} color="gray.7" to="/">
         DevLaunch
       </NavLink>

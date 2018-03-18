@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 
-import Container from '../../components/elements/Container';
+import { Container } from 'components/elements';
 import Typography from './sections/typography';
 import Colors from './sections/colors';
 import Layouts from './sections/layouts';

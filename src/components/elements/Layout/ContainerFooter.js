@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { Flex } from 'rebass';
 
 const StyledContainerFooter = styled(Flex)`
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05)
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
+  margin-top: 1px;
 `;
 
 StyledContainerFooter.defaultProps = {

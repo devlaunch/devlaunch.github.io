@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { Provider } from 'rebass';
+import { Provider, Flex, Box } from 'rebass';
 
 import config from "../../data/SiteConfig";
 import { theme, baseStyles } from '../theme';
@@ -21,8 +21,12 @@ export default class DocLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
         </Helmet>
         <Header />
-        <SideBar />
-        {children()}
+        <Flex flexWrap='wrap'>
+          <SideBar />
+          <Box width='calc(100% - 250px)' flex='1 1 auto'>
+            {children()}
+          </Box>
+        </Flex>
         <Footer config={config} />
       </Provider>
     );

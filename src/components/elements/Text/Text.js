@@ -5,7 +5,7 @@ const StyledText = styled(Text)`
 `;
 
 StyledText.defaultProps = {
-  color: 'gray.6'
+  color: 'gray.7'
 }
 
 export default StyledText;

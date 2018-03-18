@@ -10,11 +10,7 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 StyledNavLink.defaultProps = {
-  color: 'gray.6'
+  color: 'gray.7'
 };
-
-// const ColoredStyledNavLink = ({ ...props} ) => (
-//   <StyledNavLink {...props} color="gray.6" />
-// );
 
 export default StyledNavLink;

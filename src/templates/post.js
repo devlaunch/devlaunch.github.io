@@ -1,10 +1,10 @@
 import React from "react";
 import Helmet from "react-helmet";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/sections/PostTags";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
-import SEO from "../components/SEO/SEO";
+import UserInfo from "components/sections/TwitterFollow";
+import Disqus from "components/sections/Disqus";
+import PostTags from "components/sections/PostTags";
+import SocialLinks from "components/sections/SocialLinks/SocialLinks";
+import SEO from "components/sections/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 

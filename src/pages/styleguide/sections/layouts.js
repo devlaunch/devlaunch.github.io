@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Box } from 'rebass';
-
-import Section from '../../../components/elements/Section';
-import Text from '../../../components/elements/Text';
-import SectionHeading from '../../../components/elements/SectionHeading';
+import { Box, Section, Text, SectionHeading } from 'components/elements';
 
 class Layouts extends Component {
   render() {

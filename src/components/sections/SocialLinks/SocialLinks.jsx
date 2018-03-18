@@ -20,7 +20,7 @@ import {
   LinkedinIcon,
   RedditIcon
 } from "react-share";
-import config from "../../../data/SiteConfig";
+import config from "../../../../data/SiteConfig";
 import "./SocialLinks.css";
 
 class SocialLinks extends Component {

@@ -1,9 +1,7 @@
-import React, { Component } from "react";
-import Link from "gatsby-link";
-import { Flex } from "rebass";
-import { Github, Twitter, Mail, Rss } from "react-feather";
-
-import NavLink from '../elements/NavLink';
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+import { Flex, NavLink } from 'components/elements';
+import { Github, Twitter, Mail, Rss } from 'react-feather';
 
 class UserLinks extends Component {
   getLinkElements() {
